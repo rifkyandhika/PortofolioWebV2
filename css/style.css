@@ -1,3 +1,5 @@
-.col a{
-    background-size: 10px;
+div.kotak{
+    width: auto;
+    border: 200px;
+    padding: 60px;
 }
