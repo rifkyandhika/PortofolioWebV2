@@ -3,3 +3,24 @@ div.kotak{
     border: 200px;
     padding: 60px;
 }
+
+div.kskill{
+    padding: 0px;
+    margin: 120px;
+}
+
+div.shadow-lg{
+    height: 12cm;
+}
+
+div.prawal{
+    width: 50%;
+}
+
+div.prkedua{
+    width: 60%;
+}
+
+div.prketiga{
+    width: 70%;
+}
