@@ -456,7 +456,7 @@ p {
 #hero .hero-content {
   height: 100vh;
   text-align: left;
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
