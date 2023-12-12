@@ -19,29 +19,23 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="assets/vendor/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
     <link href="assets/vendor/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-  * Template Name: Folio - v4.9.0
-  * Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top ">
+    <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center justify-content-between">
 
             <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
@@ -52,9 +46,10 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
-                    <li><a class="nav-link  scrollto" href="#journal">Blog</a></li>
-                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="nav-link scrollto" href="#sertificate">Sertificate</a></li>
+                    <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+                    <!-- <li><a class="nav-link  scrollto" href="#journal">Blog</a></li> -->
+                    <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#">Drop Down 1</a></li>
                             <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
@@ -71,14 +66,15 @@
                             <li><a href="#">Drop Down 3</a></li>
                             <li><a href="#">Drop Down 4</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                 </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
+                <i class="fa fa-bars mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
 
         </div>
-    </header><!-- End Header -->
+    </header>
+    <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
     <div id="hero" class="home">
@@ -91,16 +87,19 @@
 
                 <ul class="list-unstyled list-social">
                     <!-- <li><a href="#"><i class="bi bi-facebook"></i></a></li> -->
-                    <li><a href="https://github.com/rifkyandhika" target="_blank"><i class="bi bi-github"></i></a></li>
-                    <li><a href="https://www.instagram.com/rifkyandhikam/" target="_blank"><i
-                                class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://github.com/rifkyandhika" target="_blank"><i class="fa fa-github"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/rifkyandhikam/" target="_blank"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/rifkyandhikam/" target="_blank"><i
-                                class="bi bi-linkedin"></i></a></li>
+                                class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
-    </div><!-- End Hero -->
+    </div>
+    <!-- End Hero -->
 
+    <!-- ======= Main Section ======= -->
     <main id="main">
 
         <!-- ======= About Section ======= -->
@@ -120,7 +119,8 @@
                         <div class="about-descr">
 
                             <p class="p-heading">
-                                I am a Full Stack Web Developer has programming skills in PHP, Javascript and SQL. I can also work as a freelancer to the best of my ability.
+                                I am a Full Stack Web Developer has programming skills in PHP, Javascript and SQL. I can
+                                also work as a freelancer to the best of my ability.
                             </p>
 
                             <div class="container">
@@ -133,7 +133,8 @@
                     </div>
                 </div>
             </div>
-        </div><!-- End About Section -->
+        </div>
+        <!-- End About Section -->
 
         <!-- ======= Services Section ======= -->
         <div id="services">
@@ -194,169 +195,122 @@
             </div>
 
             <div class="container">
-
                 <div class="row sertificate-container">
-
-                    <div class="col-lg-4 col-md-6 sertificate-item filter-app">
-                        <img src="assets/img/sertifikat/56418145-Sertifikat4.png" class="img-fluid" alt="">
-                        <div class="sertificate-info">
-                            <h4>Nvidia</h4>
-                            <p>Certificate</p>
-                            <a href="assets/img/sertifikat/56418145-Sertifikat4.png" data-gallery="sertificateGallery"
-                                class="sertificate-lightbox preview-link" title="App 1">
-                                <i class="bx bx-plus"></i>
-                            </a>
-                            <a href="sertificate-details.html" class="details-link" title="More Details">
-                                <i class="bx bx-link"></i>
-                            </a>
+                    <div class="col-lg-4 col-md-6 sertificate-item">
+                        <div class="card h-100">
+                            <img src="assets/img/sertifikat/56418145-Sertifikat4.png" class="img-fluid" alt="">
+                            <div class="sertificate-info card-body">
+                                <h4>Nvidia</h4>
+                                <p>Certificate</p>
+                                <a href="assets/img/sertifikat/56418145-Sertifikat4.png" data-gallery="portfolioGallery"
+                                    class="sertificate-lightbox preview-link"><i class="bx bx-plus"></i></a>
+                                <a href="sertificate-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 sertificate-item filter-web">
-                        <img src="assets/img/sertifikat/56418145-Sertifikat2.jpg" class="img-fluid" alt="">
-                        <div class="sertificate-info">
-                            <h4>Digitama Digital</h4>
-                            <p>Certificate</p>
-                            <a href="assets/img/sertifikat/56418145-Sertifikat2.jpg" data-gallery="sertificateGallery"
-                                class="sertificate-lightbox preview-link" title="Web 3">
-                                <i class="bx bx-plus"></i>
-                            </a>
-                            <a href="sertificate-details.html" class="details-link" title="More Details">
-                                <i class="bx bx-link"></i>
-                            </a>
+                    <div class="col-lg-4 col-md-6 sertificate-item">
+                        <div class="card h-100">
+                            <img src="assets/img/sertifikat/56418145-Sertifikat2.jpg"
+                                class="img-fluid with-white-background" alt="">
+                            <div class="sertificate-info card-body ">
+                                <h4>Digitama Digital</h4>
+                                <p>Certificate</p>
+                                <a href="assets/img/sertifikat/56418145-Sertifikat2.jpg" data-gallery="portfolioGallery"
+                                    class="sertificate-lightbox preview-link"><i class="bx bx-plus"></i></a>
+                                <a href="sertificate-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 sertificate-item filter-app">
-                        <img src="assets/img/sertifikat/56418145-Sertifikat10.png" class="img-fluid" alt="">
-                        <div class="sertificate-info">
-                            <h4>Dunia Coding</h4>
-                            <p>Certificate</p>
-                            <a href="assets/img/sertifikat/56418145-Sertifikat10.png" data-gallery="sertificateGallery"
-                                class="sertificate-lightbox preview-link" title="App 2">
-                                <i class="bx bx-plus"></i>
-                            </a>
-                            <a href="sertificate-details.html" class="details-link" title="More Details">
-                                <i class="bx bx-link"></i>
-                            </a>
+                    <div class="col-lg-4 col-md-6 sertificate-item">
+                        <div class="card h-100">
+                            <img src="assets/img/sertifikat/56418145-Sertifikat10.png"
+                                class="img-fluid with-white-background" alt="">
+                            <div class="sertificate-info card-body">
+                                <h4>Dunia Coding</h4>
+                                <p>Certificate</p>
+                                <a href="assets/img/sertifikat/56418145-Sertifikat10.png"
+                                    data-gallery="portfolioGallery" class="sertificate-lightbox preview-link"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="sertificate-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
                         </div>
                     </div>
-
                 </div>
-
                 <div class="container">
                     <div class="section-title text-center">
-                        <a href="sertificate.html" class="btn btn-color btn-info" role="button" aria-pressed="true">
+                        <a href="sertificate-details.html" class="btn btn-color btn-info" role="button"
+                            aria-pressed="true">
                             View All
                         </a>
                     </div>
                 </div>
-
             </div>
-        </div><!-- End Portfolio Section -->
+        </div>
+        <!-- End Portfolio Section -->
 
         <!-- ======= Portfolio Section ======= -->
         <div id="portfolio" class="paddsection">
-
             <div class="container">
                 <div class="section-title text-center">
                     <h2>My Portfolio</h2>
                 </div>
             </div>
-
             <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
-                        </ul>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <img src="assets/img/portfolio/56418145_Portofolio1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Dapur Annissa</h4>
+                            <p>Web</p>
+                            <a href="assets/img/portfolio/56418145_Portofolio1.jpg" data-gallery="portfolioGallery"
+                                data-draggable="true" data-zoomable="true" data-type="image"
+                                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details/portofolio-details-1.html" class="details-link" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <img src="assets/img/portfolio/56418145_Portofolio2.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>EAM Wasa Mitra</h4>
+                            <p>Web</p>
+                            <a href="assets/img/portfolio/56418145_Portofolio2.jpg" data-gallery="portfolioGallery"
+                                data-draggable="true" data-zoomable="true" data-type="image"
+                                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details/portofolio-details-2.html" class="details-link" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <img src="assets/img/portfolio/56418145_Portofolio3.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Koda Jaya</h4>
+                            <p>Web</p>
+                            <a href="assets/img/portfolio/56418145_Portofolio3.jpg" data-gallery="portfolioGallery"
+                                data-draggable="true" data-zoomable="true" data-type="image"
+                                class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details/portofolio-details-3.html" class="details-link" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
                     </div>
                 </div>
-
-                <div class="row portfolio-container">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>App</p>
-                            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
+                <div class="container">
+                    <div class="section-title text-center">
+                        <a href="portfolio-details/index.html" class="btn btn-color btn-info" role="button"
+                            aria-pressed="true">
+                            View All
+                        </a>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>App</p>
-                            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 2</h4>
-                            <p>Card</p>
-                            <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 2</h4>
-                            <p>Web</p>
-                            <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>App</p>
-                            <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </div><!-- End Portfolio Section -->
+        </div>
+        <!-- End Portfolio Section -->
 
         <!-- ======= Journal Section ======= -->
-        <div id="journal" class="text-left paddsection">
+        <!-- <div id="journal" class="text-left paddsection">
 
             <div class="container">
                 <div class="section-title text-center">
@@ -423,7 +377,8 @@
                 </div>
             </div>
 
-        </div><!-- End Journal Section -->
+        </div> -->
+        <!-- End Journal Section -->
 
         <!-- ======= Contact Section ======= -->
         <div id="contact" class="paddsection">
@@ -498,9 +453,11 @@
                     </div>
                 </div>
             </div>
-        </div><!-- End Contact Section -->
+        </div>
+        <!-- End Contact Section -->
 
-    </main><!-- End #main -->
+    </main>
+    <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <div id="footer" class="text-center">
@@ -509,55 +466,28 @@
 
                 <ul class="list-unstyled">
                     <!-- <li><a href="#"><i class="bi bi-facebook"></i></a></li> -->
-                    <li><a href="https://github.com/rifkyandhika" target="_blank"><i class="bi bi-github"></i></a></li>
-                    <li><a href="https://www.instagram.com/rifkyandhikam/" target="_blank"><i
-                                class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://github.com/rifkyandhika" target="_blank"><i class="fa fa-github"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/rifkyandhikam/" target="_blank"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/rifkyandhikam/" target="_blank"><i
-                                class="bi bi-linkedin"></i></a></li>
+                                class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
                 </ul>
 
             </div>
 
             <p>&copy; Copyrights Rifkyandhikam. All rights reserved.</p>
-
-            <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-
-        </div>
-    </div><!-- End Footer -->
-
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
-        <i class="bi bi-arrow-up-short"></i>
-    </a>
-
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Understood</button>
-                </div>
-            </div>
         </div>
     </div>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
 
     <!-- Vendor JS Files -->
-    <!-- <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
-    </script>
+    <script src="assets/vendor/node_modules/jquery/dist/jquery.js"></script>
+    <script src="assets/vendor/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
@@ -568,8 +498,6 @@
     <script src="assets/js/main.js"></script>
 
     <script>
-        $('#staticBackdrop').modal('show');
-
         $(document).ready(function () {
             // Saat tombol diklik
             $(".back-to-top").click(function () {

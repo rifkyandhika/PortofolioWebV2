@@ -643,6 +643,7 @@ p {
 # sertificate
 --------------------------------------------------------------*/
 #sertificate {
+  background: #f7f7f7;
   position: relative;
   padding-bottom: 50px;
 }
@@ -729,6 +730,40 @@ p {
 #sertificate .sertificate-item:hover .sertificate-info {
   opacity: 1;
   bottom: 20px;
+}
+
+.sertificate-item .img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.sertificate-item .img-fluid {
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.sertificate-item .with-white-background {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sertificate-item .position-relative {
+  position: relative;
+}
+
+.sertificate-item .pin-icon {
+  position: absolute;
+  top: 10px; /* Sesuaikan dengan posisi vertikal yang diinginkan */
+  right: 10px; /* Sesuaikan dengan posisi horizontal yang diinginkan */
+}
+
+.sertificate-item .pin-icon i {
+  font-size: 22px; /* Sesuaikan ukuran ikon */
+  color: #2b2626; /* Sesuaikan warna ikon */
+  padding: 8px; /* Sesuaikan padding ikon */
+  border-radius: 50%; /* Untuk membuat ikon menjadi lingkaran */
 }
 
 /*--------------------------------------------------------------
@@ -887,6 +922,40 @@ p {
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 20px;
+}
+
+.portfolio-item .img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item .img-fluid {
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.portfolio-item .with-white-background {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item .position-relative {
+  position: relative;
+}
+
+.portfolio-item .pin-icon {
+  position: absolute;
+  top: 10px; /* Sesuaikan dengan posisi vertikal yang diinginkan */
+  right: 10px; /* Sesuaikan dengan posisi horizontal yang diinginkan */
+}
+
+.portfolio-item .pin-icon i {
+  font-size: 22px; /* Sesuaikan ukuran ikon */
+  color: #2b2626; /* Sesuaikan warna ikon */
+  padding: 8px; /* Sesuaikan padding ikon */
+  border-radius: 50%; /* Untuk membuat ikon menjadi lingkaran */
 }
 
 /*--------------------------------------------------------------
