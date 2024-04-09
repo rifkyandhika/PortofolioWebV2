@@ -95,9 +95,9 @@
         <section id="portfolio-details" class="portfolio-details">
             <div class="container">
 
-                <div class="row gy-4">
+                <div class="row gy-3">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mb-5">
                         <div class="container">
                             <img src="assets/img/me_2.png" width="350" class="img-responsive" alt="me">
                         </div>
@@ -109,7 +109,7 @@
                             <ul>
                                 <li><strong>Name</strong>: Rifky Andhika Maulana</li>
                                 <li><strong>Nationality</strong>: Indonesia</li>
-                                <li><strong>Age</strong>: 23 Years Old</li>
+                                <li><strong>Age</strong>: <span id="umur"></span></li>
                                 <li><strong>Position</strong>: Web Developer</li>
                             </ul>
                         </div>
@@ -356,6 +356,23 @@
                     $(".back-to-top").fadeOut();
                 }
             });
+
+            // Mendapatkan tanggal lahir dari input
+            var tanggalLahir = new Date('2000-05-31');
+
+            // Fungsi untuk mengupdate umur secara otomatis
+            function updateAge() {
+                var today = new Date();
+                var age = today.getFullYear() - tanggalLahir.getFullYear();
+                var monthDiff = today.getMonth() - tanggalLahir.getMonth();
+                if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < tanggalLahir.getDate())) {
+                    age--;
+                }
+                $("#umur").text(age + " Years Old");
+            }
+
+            // Panggil fungsi untuk pertama kali
+            updateAge();
         });
     </script>
 
