@@ -1,8 +1,8 @@
 on: push
-name: Deploy website on push
+name: Deploy Rifkyandhikam.site to Cpanel
 jobs:
   web-deploy:
-    name: Deploy
+    name: Deploy Production
     runs-on: ubuntu-latest
     steps:
     - name: Get latest code
